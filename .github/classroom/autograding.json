@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "Exercise 1",
+      "setup": "",
+      "run": "mvn -q -Dtest=FileLoaderTest test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Exercise 2",
+      "setup": "",
+      "run": "mvn -q -Dtest=DividerTest test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Exercise 3",
+      "setup": "",
+      "run": "mvn -q -Dtest=MyStackTest,EmptyStackExceptionTest,FullStackExceptionTest test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "Exercise 4",
+      "setup": "",
+      "run": "mvn -q -Dtest=ParserTest test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Exercise 5",
+      "setup": "",
+      "run": "mvn -q -Dtest=BankAccountTest test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    }
+  ]
+}
