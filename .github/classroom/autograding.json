@@ -3,7 +3,7 @@
     {
       "name": "Exercise 1",
       "setup": "",
-      "run": "mvn -q -Dtest=FileLoaderTest test",
+      "run": "mvn -q -Dtest=EmailCounterTest test",
       "input": "",
       "output": "",
       "comparison": "included",
