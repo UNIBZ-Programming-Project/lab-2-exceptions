@@ -1,0 +1,22 @@
+Tiago's Page
+tiago.princesales@unibz.it
+
+Tiago is an Assistant Professor at the KRDB Research Centre for Knowledge and Data, Faculty of Computer Science, Free University of Bozen-Bolzano. He received his PhD cum laude from the University of Trento, Italy, in 2019.
+
+His research focuses are Ontology-driven Conceptual Modeling, Enterprise Modeling, and Business Informatics. He had extensive experience in Research & Development projects and in technology transfer projects. He has worked with organizations such as the Dutch Healthcare Institute, Accenture Labs, NOI Techpark, AlpineBits Alliance, Globosat, and the Brazilian Ground Transportation Agency.
+
+He will teach the lectures and lab A.
+
+Office hours: Friday, 15:30 - 17:30, by prior email appointment
+
+Davide Lanti
+Davide
+
+Davide's Page
+davide.lanti@unibz.it
+
+Davide is an Assistant Professor at the Free University of Bozen-Bolzano. His research is focused on Ontology-based Data Access (OBDA), where OBDA concerns about accessing heterogeneous physical data sources through a conceptual layer provided by a mediating ontology. In particular, he works on benchmarking and optimization of OBDA systems.
+
+He will teach lab B.
+
+Office hours: by prior email appointment
