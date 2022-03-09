@@ -20,8 +20,17 @@ public class EmailCounter {
   }
 
   public static long[] countAllEmails(String[] fileNames) {
-    // Write your code here!
-    return null;
+    long[] emailCount = new long[fileNames.length];
+
+    for (int i = 0; i < fileNames.length; i++) {
+      try {
+        emailCount[i] = countEmails(fileNames[i]);
+      } catch (IOException e) {
+        emailCount[i] = -1;
+      }
+    }
+
+    return emailCount;
   }
 
 }
