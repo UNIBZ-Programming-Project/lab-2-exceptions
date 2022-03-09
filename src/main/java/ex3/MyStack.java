@@ -1,34 +1,60 @@
 package ex3;
 
+import java.util.Arrays;
+
 public class MyStack {
 
+   private int[] array;
+   private int top;
+
    public MyStack(int maxSize) {
-      // Write your code here!
+      this.array = new int[maxSize];
+      this.top = 0;
+   }
+
+   public boolean isEmpty() {
+      return top == 0;
+   }
+
+   public boolean isFull() {
+      return top == getMaxSize();
    }
 
    public int getSize() {
-      // FIXME
-      return 0;
+      return this.top;
    }
 
    public int getMaxSize() {
-      // FIXME
-      return 0;
+      return this.array.length;
    }
 
    public boolean push(int value) {
-      // FIXME
-      return false;
+      if (isFull())
+         throw new FullStackException(getMaxSize(), value);
+
+      array[top] = value;
+      top++;
+      return true;
    }
 
    public int pop() {
-      // FIXME
-      return 0;
+      if (isEmpty())
+         throw new EmptyStackException();
+
+      top--;
+      int lastAddedValue = array[top];
+      return lastAddedValue;
    }
 
    public int peek() {
-      // FIXME
-      return 0;
+      if (isEmpty())
+         throw new EmptyStackException();
+
+      return array[top - 1];
    }
 
+   @Override
+   public String toString() {
+      return Arrays.toString(Arrays.copyOfRange(array,0,top));
+   }
 }
